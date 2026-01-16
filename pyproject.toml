@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+[project]
+name = "field_compression"
+version = "0.1"
+authors = [
+  { name="Robert Spiers", email="rspiers@udel.edu" },
+]
+description = "Analytically calculates the evolution of a magnetic field under spherical flows"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/spiersrobbie/field_compression"
+Issues = "https://github.com/spiersrobbie/field_compression/issues"
